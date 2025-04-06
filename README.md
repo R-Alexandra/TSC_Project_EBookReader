@@ -8,6 +8,40 @@ Acest proiect reprezintă un sistem de tip **eBook Reader** bazat pe microcontro
 
 ---
 
+## Bill of Materials (BOM)
+
+| Componentă                | Link Achiziționare | Link Datasheet |
+|---------------------------|--------------------|----------------|
+| 112A-TAAR-R03 ATTEND      | https://store.comet.srl.ro/Catalogue/Product/43497/ | https://www.snapeda.com/parts/112A-TAAR-R03/Attend/datasheet/ |
+| Condensator C0402         | https://ro.mouser.com/c/passive-components/capacitors/ceramic-capacitors/?q=CC0402 | https://componentsearchengine.com/Datasheets/2/CC0402MRX5R5BB106.pdf |
+| Condensator Tantalum      | https://ro.mouser.com/ProductDetail/KYOCERA-AVX/TAJW107M010RNJ?qs=Wtp%252Bf%2FAeVqIH8v1VxV%252B1Rg%3D%3D | https://ro.mouser.com/datasheet/2/40/TAJ-3165264.pdf |
+| CHG_LED                   | https://ro.mouser.com/ProductDetail/Kingbright/KP-1608SURCK?qs=2JU0tDl2GZ3FuyEWfBV1%2Fg== | https://www.snapeda.com/parts/KP-1608SURCK/Kingbright/datasheet/ |
+| USBLC6-2SC6Y              | https://ro.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2SC6Y?qs=gNDSiZmRJS%2FOgDexvXkdow%3D%3D | https://ro.mouser.com/datasheet/2/389/usblc6_2sc6y-1852505.pdf |
+| SD0805S020S1R0            | https://ro.mouser.com/ProductDetail/KYOCERA-AVX/SD0805S020S1R0?qs=jCA%252BPfw4LHbpkAoSnwrdjw%3D%3D | https://ro.mouser.com/datasheet/2/40/schottky-3165252.pdf |
+| MBR0530                   | https://ro.mouser.com/ProductDetail/onsemi-Fairchild/MBR0530?qs=VOMQJJE%252BBNniwJKcE3T43Q== | https://ro.mouser.com/datasheet/2/308/MBR0530_D-1810985.pdf |
+| PGB1010603MR              | https://www.digikey.com/en/products/detail/littelfuse-inc/PGB1010603MR/715755 | https://www.littelfuse.com/assetdocs/pulseguard-esd-suppressors-pgb1-datasheet?assetguid=8a337998-d54d-466b-be4e-dc5bcd1f9321 |
+| Rezistență R0402         | https://ro.mouser.com/c/passive-components/resistors/smd-resistors-chip-resistors/?case%20code%20-%20in=0402 | https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf |
+| BME680                    | https://ro.mouser.com/ProductDetail/Bosch-Sensortec/BME688?qs=IS%252B4QmGtzzqQoVDscqwx3A%3D%3D | https://ro.mouser.com/datasheet/2/783/bst_bme688_fl000-2307034.pdf |
+| W25Q512JVEIQ              | https://ro.mouser.com/ProductDetail/Winbond/W25Q512JVEIQ?qs=l7cgNqFNU1jw6svr3at6tA%3D%3D | https://ro.mouser.com/datasheet/2/949/Winbond_W25Q512JV_Datasheet-3240039.pdf |
+| ESP32-C6-WROOM-1-N8       | https://ro.mouser.com/ProductDetail/Espressif-Systems/ESP32-C6-WROOM-1-N8?qs=8Wlm6%252BaMh8ST02Gmwp74cw%3D%3D | https://ro.mouser.com/datasheet/2/891/Espressif_ESP32_C6_WROOM_1__Datasheet_V0_1_PRELIMI-3239987.pdf |
+| DS3231SN#                 | https://ro.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/DS3231SN?qs=1eQvB6Dk1vhUlr8%2FOrV0Fw%3D%3D | https://ro.mouser.com/datasheet/2/609/DS3231-3421123.pdf |
+| MAX17048G+T10             | https://ro.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/MAX17048G%2bT10?qs=D7PJwyCwLAoGnnn8jEPRBQ%3D%3D | https://ro.mouser.com/datasheet/2/609/MAX17048_MAX17049-3469099.pdf |
+| MCP73831                  | https://ro.mouser.com/ProductDetail/Microchip-Technology/MCP73831T-2ATI-OT?qs=yUQqVecv4qsZbioEUu%252B83g%3D%3D | https://ro.mouser.com/datasheet/2/268/MCP73831_Family_Data_Sheet_DS20001984H-3441711.pdf |
+| BD5229G-TR                | https://www.digikey.com/en/products/detail/rohm-semiconductor/BD5229G-TR/3663792 | https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd52xxg-e.pdf |
+| XC6220A331MR-G            | https://ro.mouser.com/ProductDetail/Torex-Semiconductor/XC6220A331MR-G?qs=AsjdqWjXhJ8ZSWznL1J0gg%3D%3D | https://ro.mouser.com/datasheet/2/760/xc6220-3371556.pdf |
+| FH34SRJ-24S-0.5SH(99)     | https://ro.mouser.com/ProductDetail/Hirose-Connector/FH34SRJ-24S-0.5SH99?qs=vcbW%252B4%252BSTIpKBl5ap9J8Fw%3D%3D | https://ro.mouser.com/datasheet/2/185/FH34SRJ_24S_0_5SH_99__CL0580_1255_6_99_2DDrawing_0-1615044.pdf |
+| USB4110-GF-A              | https://ro.mouser.com/ProductDetail/GCT/USB4110-GF-A?qs=KUoIvG%2F9IlYiZvIXQjyJeA%3D%3D | https://ro.mouser.com/datasheet/2/837/GCT_USB4110_Product_Drawing___20k_cycles-3455479.pdf |
+| QWIIC_RIGHT_ANGLE         | https://ro.mouser.com/ProductDetail/SparkFun/PRT-14417?qs=wd5RIQLrsJhgdz%2FpmZ%2F3GQ== | https://ro.mouser.com/datasheet/2/813/Qwiic_Connector_Datasheet-1223982.pdf |
+| Bobină 744043680         | https://ro.mouser.com/ProductDetail/Wurth-Elektronik/744043680?qs=PGXP4M47uW6VkZq%252BkzjrHA%3D%3D | https://www.we-online.com/components/products/datasheet/744043680.pdf |
+| PFMF.050.1                | https://ro.mouser.com/ProductDetail/EPCOS-TDK/B72520T0350K062?qs=dEfas%2FXlABIszF52uu7vrg%3D%3D | https://www.tdk-electronics.tdk.com/inf/75/db/CTVS_14/Surge_protection_series.pdf |
+| DMG2305UX-7               | https://www.digikey.com/en/products/detail/diodes-incorporated/DMG2305UX-7/4340666 | https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf |
+| Si1308EDL-T1-GE3          | https://www.digikey.com/en/products/detail/vishay-siliconix/SI1308EDL-T1-GE3/4876435 | https://www.vishay.com/docs/63399/si1308edl.pdf |
+| Solder Jumper (SJ)        | https://grabcad.com/library/solder-jumpers-1 | https://grabcad.com/library/solder-jumpers-1 |
+| Buton                     | https://industry.panasonic.com/global/en/products/control/switch/light-touch/number/evqpuj02k | https://industry.panasonic.com/global/en/downloads?tab=catalog&small_g_cd=203&part_no=EVQPUJ02K |
+| CPH3225A                  | https://www.digikey.com/en/products/detail/seiko-instruments/CPH3225A/8692444 | https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6537/rev05-CPHCPM.pdf |
+
+---
+
 ## Descriere a componentelor și funcționalității hardware
 
 ### Microcontroller: ESP32-C6
