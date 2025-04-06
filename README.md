@@ -265,4 +265,4 @@ Pentru designul PCB-ului, am folosit DRC-ul oferit pentru verificare și am rezo
 - lângă header-ul display-ului pentru a testa alimentarea și semnalele de date către ecran;
 - lângă ESP32-C6 pentru a verifica semnale critice și pentru debugging.
 
-Am avut în vedere și integrarea finală în ansamblul 3D al carcasei. De aceea, am poziționat conectorii astfel încât să fie accesibili din exterior, iar unele componente au fost ușor translatate pentru a obține o potrivire corectă și o funcționare bună a dispozitivului.  
+Am avut în vedere și integrarea finală în ansamblul 3D al carcasei. De aceea, am poziționat conectorii astfel încât să fie accesibili din exterior, iar unele componente au fost ușor translatate pentru a obține o potrivire corectă și o funcționare bună a dispozitivului. De asemenea, am desenat bateria și ecranul folosind dimensiunile mecanice specificate pentru o integrare cât mai bună. 
