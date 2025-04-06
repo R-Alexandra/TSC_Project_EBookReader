@@ -261,8 +261,8 @@ Sistemul este proiectat pentru un consum energetic redus, aspect esențial pentr
 ## Considerații privind realizarea proiectului
 În procesul de realizare a designului hardware am respectat cerințele din ghidurile de proiectare (ERC, DRC, layout) și am încercat să iau decizii care să ofere echilibru între funcționalitate, integrare și respectarea bunelor practici. Amplasarea componentelor am făcut-o atât pe baza documentației oferite (dimensiuni mecanice și recomandări de placement), cât și pentru o rutare cât mai bună, care să reducă interferențele și să faciliteze traseele de alimentare și semnal.
 
-Pentru designul PCB-ului, am folosit DRC-ul oferit pentru verificare și am corectat erorile apărute, inclusiv prin ajustarea dimensiunii unor footprint-uri. Am aplicat regulile de rutare pentru traseele de putere și pentru date, evitând unghiurile drepte. Test pad-urile rămase le-am poziționat astfel încât să putem testa rapid anumite componente: 
+Pentru designul PCB-ului, am folosit DRC-ul oferit pentru verificare și am rezolvat erorile apărute, inclusiv prin ajustarea dimensiunii unor footprint-uri. Am aplicat regulile de rutare pentru traseele de putere și pentru date, evitând unghiurile drepte. Traseele de alimentare au lățimea de 0.3mm, restul traseelor de 0.15mm și am realizat câte un plan de masă atât pentru top cât și pe bottom. Test pad-urile rămase le-am poziționat astfel încât să putem testa rapid anumite componente: 
 - lângă header-ul display-ului pentru a testa alimentarea și semnalele de date către ecran;
 - lângă ESP32-C6 pentru a verifica semnale critice și pentru debugging.
 
-Am avut în vedere și integrarea finală în ansamblul 3D al carcasei. De aceea, am poziționat conectorii astfel încât să fie accesibili din exterior, iar unele componente au fost ușor translatate pentru a obține o potrivire corectă și o funcționare bună a dispozitivului.
+Am avut în vedere și integrarea finală în ansamblul 3D al carcasei. De aceea, am poziționat conectorii astfel încât să fie accesibili din exterior, iar unele componente au fost ușor translatate pentru a obține o potrivire corectă și o funcționare bună a dispozitivului.  
