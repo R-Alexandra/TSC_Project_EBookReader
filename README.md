@@ -4,7 +4,7 @@ Acest proiect reprezintă un sistem de tip **eBook Reader** bazat pe microcontro
 
 ---
 ## Diagramă Bloc
-![Diagrama_Bloc](https://github.com/user-attachments/assets/b95a3e5d-b3df-4297-baa7-8db5fd6e72bd)
+![Diagrama_Bloc](https://github.com/user-attachments/assets/4085308e-ed40-4cd3-b506-fe4953fb88d4)
 
 ---
 
@@ -75,7 +75,7 @@ Acest proiect reprezintă un sistem de tip **eBook Reader** bazat pe microcontro
 
 
 
-## Senzor BME688
+## Senzor BME680
 
 - Măsoară: **temperatură, umiditate, presiune atmosferică, calitate aer (VOCs)**
 - Este conectat prin interfața **I2C** (SDA și SCL)
