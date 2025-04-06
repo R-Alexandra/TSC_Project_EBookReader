@@ -1,4 +1,4 @@
-# TSC_Project_EBookReader
+# TSC_Project_EBookReader - Rădulescu Alexandra
 
 Acest proiect reprezintă un sistem de tip **eBook Reader** bazat pe microcontrolerul **ESP32-C6**, ce integrează module de stocare, afișare, senzori de mediu, alimentare prin baterie și interfețe de conectivitate. Dispozitivul este proiectat pentru un consum energetic scăzut și este compatibil cu multiple tipuri de afișaje E-Ink.
 
