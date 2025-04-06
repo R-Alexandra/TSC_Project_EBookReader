@@ -17,7 +17,6 @@ Acest proiect reprezintă un sistem de tip **eBook Reader** bazat pe microcontro
   - **GPIO**(General Purpose Input/Output): utilizat pentru semnale de control pentru ecranul E-Ink, butoane și detecție SD
 - Are o arhitectură optimizată pentru **consum redus de energie**, ideală pentru aplicații portabile
 
----
 
 ### Alimentare și protecție
 
@@ -40,7 +39,6 @@ Acest proiect reprezintă un sistem de tip **eBook Reader** bazat pe microcontro
 - Conector **USB-C** pentru alimentare și comunicație
 - Protecție la descărcări electrostatice realizată prin **PMF0501** și **USBLC6-2SC6Y**, care protejează liniile de alimentare și semnal
 
----
 
 ## Stocare
 
@@ -55,7 +53,6 @@ Acest proiect reprezintă un sistem de tip **eBook Reader** bazat pe microcontro
 - Chipul **W25Q512JVEIQ** furnizeză memorie nevolatilă pentru firmware și resurse statice
 - Conectată la magistrala **SPI**
 
----
 
 ## Afișaj E-Paper
 
@@ -72,21 +69,21 @@ Acest proiect reprezintă un sistem de tip **eBook Reader** bazat pe microcontro
 
 - Permite alegerea tipului de ecran conectat, în funcție de compatibilitatea cu semnalele de control.
 
----
+
 
 ## Senzor BME688
 
 - Măsoară: **temperatură, umiditate, presiune atmosferică, calitate aer (VOCs)**
 - Este conectat prin interfața **I2C** (SDA și SCL)
 
----
+
 
 ## Modul RTC (DS3231SN)
 
 - Precizie ridicată pentru a păstra ora și data corectă, chiar și în absența alimentării principale.
 - Interfață **I2C** (SDA și SCL)
 
----
+
 
 ## Butoane de control
 
@@ -94,14 +91,14 @@ Acest proiect reprezintă un sistem de tip **eBook Reader** bazat pe microcontro
 - Buton **BOOT**
 - Buton custom **IO/CHANGE**
 
----
+
 
 ## Test Pads și Conectori de extensie
 
 - Sunt prezente **paduri de testare** și debugging 
 - Conector **Qwiic/Stemma QT** pentru extinderea rapidă a sistemului cu senzori I2C suplimentari
 
----
+
 
 ## Protecție ESD pentru SPI
 
@@ -123,8 +120,7 @@ Sistemul este proiectat pentru un consum energetic redus, aspect esențial pentr
 | **Total (deep sleep)**   | **< 10 mA**             |
 
 ### Estimare autonomie (baterie LiPo 2000mAh):
-
-- **Folosire intensivă**: 5–7 ore
+- **Folosire intensivă**: câteva ore
 - **Standby cu afiș static**: zile/săptămâni
 
 ---
@@ -137,7 +133,7 @@ Sistemul este proiectat pentru un consum energetic redus, aspect esențial pentr
 |--------------|-------------|--------------------------------------|
 | IO3 (26)     | EPD_BUSY    | Verifică dacă ecranul este ocupat   |
 | IO5 (5)      | EPD_DC      | Comută între date și comandă        |
-| IO6 (6)      | SCK         | Linie de ceas SPI (partajată)       |
+| IO6 (6)      | SCK         | Linie de ceas SPI                   |
 | IO7 (7)      | MOSI        | Transmisie date SPI                 |
 | IO10 (11)    | EPD_CS      | Selectare chip pentru EPD           |
 | IO23 (21)    | EPD_RST     | Resetare ecran                      |
@@ -151,7 +147,7 @@ Sistemul este proiectat pentru un consum energetic redus, aspect esențial pentr
 |--------------|-------------|--------------------------------------|
 | IO2 (27)     | MISO        | Recepție date SPI                   |
 | IO4 (4)      | SS_SD       | Selectare chip SD                   |
-| IO6 (6)      | SCK         | Linie de ceas SPI (partajată)       |
+| IO6 (6)      | SCK         | Linie de ceas SPI                   |
 | IO7 (7)      | MOSI        | Transmisie date SPI                 |
 
 
@@ -162,7 +158,7 @@ Sistemul este proiectat pentru un consum energetic redus, aspect esențial pentr
 |--------------|-------------|--------------------------------------|
 | IO11 (12)    | FLASH_CS    | Selectare chip Flash                |
 | IO2 (27)     | MISO        | Recepție date SPI                   |
-| IO6 (6)      | SCK         | Linie de ceas SPI (partajată)       |
+| IO6 (6)      | SCK         | Linie de ceas SPI                   |
 | IO7 (7)      | MOSI        | Transmisie date SPI                 |
 
 
