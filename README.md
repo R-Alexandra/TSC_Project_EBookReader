@@ -2,6 +2,9 @@
 
 Acest proiect reprezintă un sistem de tip **eBook Reader** bazat pe microcontrolerul **ESP32-C6**, ce integrează module de stocare, afișare, senzori de mediu, alimentare prin baterie și interfețe de conectivitate. Dispozitivul este proiectat pentru un consum energetic scăzut și este compatibil cu multiple tipuri de afișaje E-Ink.
 
+![OpenBook_EBookReader_Update](https://github.com/user-attachments/assets/f61eba11-2851-46ff-ae5a-b9dce07dc513)
+
+
 ---
 ## Diagramă Bloc
 ![Diagrama_Bloc](https://github.com/user-attachments/assets/b81236ec-386f-4a0d-bd1f-8474d03ccdcd)
@@ -44,6 +47,9 @@ Acest proiect reprezintă un sistem de tip **eBook Reader** bazat pe microcontro
 ---
 
 ## Descriere a componentelor și funcționalității hardware
+
+![OpenBook_PCB_3D_top_Update](https://github.com/user-attachments/assets/e6b247e4-717b-4ce4-8503-75577db1e05c)
+
 
 ### Microcontroller: ESP32-C6
 
