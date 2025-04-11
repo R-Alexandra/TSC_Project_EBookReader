@@ -4,7 +4,8 @@ Acest proiect reprezintă un sistem de tip **eBook Reader** bazat pe microcontro
 
 ---
 ## Diagramă Bloc
-![Diagrama_Bloc](https://github.com/user-attachments/assets/4085308e-ed40-4cd3-b506-fe4953fb88d4)
+![Diagrama_Bloc](https://github.com/user-attachments/assets/b81236ec-386f-4a0d-bd1f-8474d03ccdcd)
+
 
 ---
 
